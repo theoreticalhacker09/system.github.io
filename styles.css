@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  border: radius 25px;
+  flex-direction: column;
+  margin: 20px;
+  background-color:rgb(248, 230, 214);
+}
+
+.first-div {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+.first-div #right-partition {
+  padding: 20px;
+}
+.second-div {
+  padding: 20px;
+  text-align: center; 
+}
+.second-div h2 {
+  margin: 0; 
+}
+.second-div p {
+  text-align: left; 
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.third-div {
+  display: flex;
+  padding: 20px;
+}
+#left-partition {
+  flex: 1; 
+  margin-left: 300px; 
+}
+.third-div #left-partition h2 {
+  margin-left: 50px; 
+}
+#right-partition {
+  flex: 1;
+}
